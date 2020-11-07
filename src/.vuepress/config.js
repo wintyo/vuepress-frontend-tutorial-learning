@@ -43,7 +43,7 @@ module.exports = {
       ],
     }],
     ['@vuepress/google-analytics', {
-      ga: 'G-8586RP1LNW',
+      ga: 'UA-182238770-1',
     }],
   ],
 };
