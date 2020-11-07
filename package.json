@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-frontend-tutorial-learning",
+  "description": "様々なケースをチュートリアル形式で学習できるサイト。",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev src"
+  },
+  "author": "wintyo",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "license": "MIT"
+}
