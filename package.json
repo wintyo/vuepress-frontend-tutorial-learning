@@ -15,5 +15,8 @@
     "@vuepress/plugin-blog": "^1.9.3",
     "vuepress": "^1.7.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  }
 }

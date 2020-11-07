@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import { format as formatDate } from 'date-fns';
 import isNil from 'lodash/isNil'
 import { endingSlashRE, outboundRE } from '../util'
 
@@ -31,7 +32,10 @@ export default {
 
   computed: {
     lastUpdated () {
-      return this.$page.lastUpdated
+      if (!this.$page.lastUpdated) {
+        return undefined;
+      }
+      return formatDate(new Date(this.$page.lastUpdated), 'yyyy/MM/dd');
     },
 
     lastUpdatedText () {
