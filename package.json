@@ -8,6 +8,7 @@
   },
   "author": "wintyo",
   "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3",
     "vuepress": "^1.7.1"
   },
   "license": "MIT"
