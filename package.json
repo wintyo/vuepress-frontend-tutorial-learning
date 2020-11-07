@@ -1,6 +1,9 @@
 {
   "name": "vuepress-frontend-tutorial-learning",
   "description": "様々なケースをチュートリアル形式で学習できるサイト。",
+  "engines": {
+    "node": ">=12.16.x"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
