@@ -11,12 +11,13 @@
     "build": "vuepress build src"
   },
   "author": "wintyo",
-  "devDependencies": {
-    "@vuepress/plugin-blog": "^1.9.3",
-    "vuepress": "^1.7.1"
-  },
-  "license": "MIT",
   "dependencies": {
     "date-fns": "^2.16.1"
-  }
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3",
+    "@vuepress/plugin-google-analytics": "^1.7.1",
+    "vuepress": "^1.7.1"
+  },
+  "license": "MIT"
 }
