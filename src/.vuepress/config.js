@@ -12,7 +12,7 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Tags', link: '/tag/' },
+      { text: 'Categories', link: '/category/' },
     ],
     sidebar: 'auto',
     sidebarDepth: 2,
@@ -25,20 +25,21 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/blog', {
-      directories: [
-        {
-          id: 'post',
-          dirname: 'posts',
-          itemPermalink: '/:year/:slug',
-        },
-      ],
+      // ディレクトリ指定しなくてもカテゴライズしてくれるのでコメントアウト
+      // directories: [
+      //   {
+      //     id: 'post',
+      //     dirname: 'posts',
+      //     itemPermalink: '/posts/:slug',
+      //   },
+      // ],
       frontmatters: [
         {
-          id: 'tag',
-          keys: ['tags'],
-          path: '/tag/',
-          layout: 'Tag',
-          scopeLayout: 'Tag',
+          id: 'category',
+          keys: ['categories'],
+          path: '/category/',
+          layout: 'Category',
+          scopeLayout: 'Category',
         },
       ],
     }],

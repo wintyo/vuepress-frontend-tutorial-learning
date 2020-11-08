@@ -33,8 +33,8 @@
       <template #top>
         <!-- 改行がないとヘッダーで見えなくなるのが辛い。。。 -->
         <br><br><br><br>
-        <div>tags</div>
-        <template v-for="item in $tag.list">
+        <div>Categories</div>
+        <template v-for="item in $category.list">
           <p>{{ item.name }}</p>
           <ul>
             <template v-for="page in item.pages">
@@ -124,7 +124,7 @@ export default {
   },
 
   mounted () {
-    console.log(this.$tag);
+    console.log(this.$category);
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })

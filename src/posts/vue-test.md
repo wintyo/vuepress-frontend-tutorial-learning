@@ -1,5 +1,6 @@
 ---
-tags: Vue.js
+categories:
+  - Vue.js
 ---
 
 # はじめに
