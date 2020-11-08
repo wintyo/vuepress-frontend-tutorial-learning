@@ -1,8 +1,6 @@
 module.exports = {
-  title: 'テストページ',
-  // title: 'フロントエンドチュートリアル学習サイト',
-  description: 'テスト',
-  // description: 'チュートリアル形式で学習できるサイト',
+  title: 'フロントエンドチュートリアル学習サイト',
+  description: 'チュートリアル形式で学習できるサイト',
   dest: 'dist/',
   port: 8000,
   locales: {
